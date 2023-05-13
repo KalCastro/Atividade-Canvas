@@ -22,7 +22,7 @@ O script utiliza o elemento `<canvas>` do HTML e o contexto 2D para desenhar as 
 
 5. Linha Reta: Uma linha reta verde é desenhada no canvas utilizando a função `lineTo()`. As coordenadas de início e fim da linha são definidas com base em valores predefinidos.
 
-![This is an image](/assets/images/Captura de tela 2023-05-13 020823.png)
+![Captura de tela 2023-05-13 020823](https://github.com/KalCastro/Atividade-Canvas/assets/127865406/0ae71a62-2460-492b-8a81-1bf17d303e1c)
 
 ### Movimento da Imagem
 
