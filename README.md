@@ -2,7 +2,7 @@
 # Atividade Canvas
 
 
-## Desenho de Formas no Canvas
+### Desenho de Formas no Canvas
 
 Este script JavaScript permite desenhar diferentes formas, como um retângulo, uma bola, um triângulo, uma curva e uma linha reta, em um elemento `<canvas>`. Além disso, o script também permite mover uma imagem no canvas e alterar a cor de fundo de um elemento `<h1>` em intervalos regulares.
 
