@@ -5,7 +5,7 @@ function moveShape(newX, newY) {
     x = newX
     y = newY
 
-    drawShape();
+    drawShapes();
 }
 
 var canvas = document.getElementById('canvas');
