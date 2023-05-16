@@ -10,7 +10,7 @@ function moveShape(newX, newY) {
 
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
-canvas.width = 1000;
+canvas.width = 1500;
 canvas.height = 1000;
 
 function drawShapes() {
