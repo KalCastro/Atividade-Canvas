@@ -75,6 +75,8 @@ function drawShapes() {
 
 drawShapes();
 
+draw();
+
 function draw(){
   var ctx5 = document.getElementById('canvas').getContext('2d');
   var img = new Image();
