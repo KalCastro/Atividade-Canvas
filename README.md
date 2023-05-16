@@ -12,7 +12,7 @@ Este script JavaScript permite desenhar diferentes formas, como um retângulo, u
 
 O script utiliza o elemento `<canvas>` do HTML e o contexto 2D para desenhar as seguintes formas:
 
-1. Retângulo: Um retângulo vermelho é desenhado no canvas na posição (700, 30), com uma largura de 100 e altura de 100 pixels.
+1. Retângulo: Um retângulo vermelho é desenhado no canvas na posição (870, 30), com uma largura de 100 e altura de 100 pixels.
 
 2. Bola: Uma bola cor de rosa é desenhada no canvas utilizando a função `arc()`. A posição central da bola é calculada com base na posição do retângulo.
 
