@@ -11,12 +11,12 @@ function moveShape(newX, newY) {
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 canvas.width = 1000;
-canvas.height = 900;
+canvas.height = 1000;
 
 function drawShapes() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  var rectX = 700;
+  var rectX = 870;
   var rectY = 30;
   var rectWidth = 100;
   var rectHeight = 100;
@@ -44,7 +44,7 @@ function drawShapes() {
   ctx.closePath();
   ctx.fill();
 
-  var triangleY = rectY + rectHeight + 300;
+  var triangleY = rectY + rectHeight + 270;
   ctx.beginPath();
   ctx.moveTo(triangleX, triangleY + 250);
   ctx.bezierCurveTo(
