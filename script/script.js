@@ -75,12 +75,18 @@ function drawShapes() {
 
 drawShapes();
 
-var image = new Image();
-image.src = "images/soul.jpg";
-image.addEventListener('load', function() {
-  ctx.drawImage(image, 100, 50, 50, 50);
-});
-
+function draw(){
+  var ctx5 = document.getElementById('canvas').getContext('2d');
+  var img = new Image();
+  img.onload = function(){
+    for (var i = 0; i< 1; i++){
+      for (var j = 0; j<1; j++){
+        ctx5.drawImage(img,j*700, i *700,300,200);
+      }
+    }
+  };
+  img.src = 'images/soul.jpg';
+}
 
 var h1 = document.getElementById("tex");
 var colors = ["red", "pink", "#DFFF00", "blue", "#DE3163"];
